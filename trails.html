@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hiking Trails</title>
+		<link href="layout.css" rel="stylesheet" type="text/css" media="screen"/>
+		<link href="content.css" rel="stylesheet" type="text/css" media="screen"/>
+		<meta charset="UTF-8"/>
+	
+	 <style>
+		#map_canvas{width: 100%; height: 400px; background-color: #CCC; position: relative; right: 20px;}
+	 </style>
+	 
+	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkSxTY9B-Cs91WCe9EqD7djnbysqx3V2U&sensor=false">
+	 </script>
+		
+	 <script>
+	 	function init(){
+	 		var map_canvas = document.getElementById('map_canvas');
+	 		var map_options = {
+	 			center: new google.maps.LatLng(39.26876,-77.395592),
+	 			zoom: 15,
+	 			mapTypeId: google.maps.MapTypeId.TERRAIN
+	 		};
+	 		var map = new google.maps.Map(map_canvas, map_options);
+	 	}
+	 	//google.maps.event.addDomListener(window, 'load', init);
+	 	window.onload = init;
+	 </script>
+	
+	</head>
+	<body>		
+		<div id="container">
+			<div id="header">
+				<h1>The Maryland Monadnock<br><small><small>Sugarloaf Hiking</small></small></h1>
+			</div>
+						
+			<div id="nav">
+				<a href="index.html">Introduction</a>
+				<a href="routes.html">Routes</a>
+				<a href="trails.html">Trails</a>
+				<a href="winery.html">Winery</a>
+				<a href="contact.html">Contact</a>
+			</div>
+				
+			<div id="content">
+				<h3 style="position: relative; right: 20px;">SUGARLOAF MOUNTAIN HIKING</h3>
+				
+			  <div id="map_canvas">
+		      </div>
+		      
+		      <br><p style="position: relative; right: 20px;">Sugarloaf Mountain has over 17 miles of trails across seven main sections. There are four trails,
+		      		 Blue, Purple, White, and Yellow, which are circuit hikes around the base and rising up to the summit of Sugarloaf.
+		      		 Several more sections, Green, Orange, and Red veer off and make runs to the summit itself from the curcuit
+		      		 hike sections.<br><br>
+		      		 
+		      		 A terrain map, powered by Google is shown above to display the elevation changes around Sugarloaf and below
+		      		 is a downloadable trail map for more details. If you forget to print a map, hard copies can be found at various
+		      		 map boxes at trailheads around the mountain.
+		      		 </p><br>
+		      
+		      <iframe src="images/trailmap.pdf" style="width: 100%; height:675px;" frameborder="1">
+		      </iframe>
+		      
+			</div>
+				
+			<div id="footer">
+				<p>&copy; Dave Grolling</p>
+				
+			</div>				
+		</div>
+	</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sugarloaf Winery</title>
+		<link href="layout.css" rel="stylesheet" type="text/css" media="screen"/>
+		<link href="content.css" rel="stylesheet" type="text/css" media="screen"/>
+		<meta charset="UTF-8"/>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<h1>The Maryland Monadnock<br><small><small>Sugarloaf Winery</small></small></h1>
+			</div>
+						
+			<div id="nav">
+				<a href="index.html">Introduction</a>
+				<a href="routes.html">Routes</a>
+				<a href="trails.html">Trails</a>
+				<a href="winery.html">Winery</a>
+				<a href="contact.html">Contact</a>
+			</div>
+				
+			<div id="content">
+				<h3>WELCOME TO SUGARLOAF WINERY!</h3>
+				
+				<p>
+					
+				<!--Image taken from: http://www.marylandwine.org/mwa/wineries/sugarloaf.shtml-->
+				<img src='images/winery.jpg' id="wine"/>
+				"Sugarloaf Mountain Vineyard grows the five Bordeaux red grapes (Cabernet Franc, Cabernet Sauvignon, Merlot, 
+				Malbec and Petit Verdot) and three white grapes (Chardonnay, Pinot Grigio and Viognier). We have an 
+				overriding commitment to quality, both in the vineyard and the winery. Open since May 2006, our wines have 
+				been extremely well received and have won several awards."<br><br>
+
+				"We age our wine in French oak barrels except for Pinot Grigio which we keep in large stainless steel tanks 
+				to enhance a crisp flinty citric finish.  Our aging program calls for one to two plus years in the barrel 
+				depending on the vintage (and our winemaker’s call)."<br><br>
+				
+				<!--Image taken from: http://www.smvwinery.com/news_archive.htm-->
+				<img src='images/SMV_CabFranc.jpg' id="cab"/>
+				"Our unique soil and microclimate create favorable growing conditions, or "terroir", for our carefully 
+				selected grapevines. With the expertise of world renowned viticulturist Lucie Morton, in 2002 we selected 
+				19,000 certified French vinifera clones which were grafted on American rootstock by Caldwell Nurseries of 
+				northern California. We planted these babies in the spring of 2004, and additional vines of similar pedigree 
+				in 2007 and 2008. The care and attention we have provided over the years has produced outstanding results. 
+				We hand-pick our grapes, cold-soak them, cold-ferment all our varietals, and age them in French oak barrels 
+				(except for our Pinot Grigio, which is aged in a special tank)."<br><br>
+
+				"Sugarloaf Mountain Vineyard has planted 3.5 acres of Cabernet Sauvignon, 2.5 acres of Pinot Grigio, 
+				2 acres of Chardonnay, 1.5 acres of Merlot, 2 acres of Cabernet Franc, .5 acre of Petit Verdot, and .25 acre 
+				of Malbec. We plan to plant an additional 15,000 certified French Bordeaux clones in the next several years." 
+				</p>
+				<h5>*Source: Sugarloaf Mountain Vinyard <a href='http://www.smvwinery.com/our_wines.htm'>Site</a></h5>
+				<br>
+				
+				
+				<h3>Query Award Winning Wines</h3>
+				
+				<p>Select from the wine list below to see the awards that Sugarloaf wines has won.</p><br>
+				
+				<form method="post" action="winery.php" id="winery">
+				<label for="name" class="leftLabel">Wine: </label>
+				<select id="name" name="name" class="rightInput">
+					<option value=""> </option>
+					<option value="Cabernet Franc">Cabernet Franc</option>
+					<option value="Cabernet Franc Reserve">Cabernet Franc Reserve</option>
+					<option value="Cabernet Sauvignon">Cabernet Sauvignon</option>
+					<option value="Cabernet Sauvignon Reserve">Cabernet Sauvignon Reserve</option>
+					<option value="Chardonnay">Chardonnay</option>
+					<option value="Chardonnay Reserve">Chardonnay Reserve</option>
+					<option value="Circe">Circe</option>
+					<option value="Comus">Comus</option>
+					<option value="Comus Reserve">Comus Reserve</option>
+					<option value="EVOE!">EVOE!</option>
+					<option value="Pinot Grigio">Pinot Grigio</option>
+					<option value="Rose">Rose</option>
+				</select>
+			
+				<input type="submit" name="submit" value="Submit Query" />
+				</form>
+				
+			</div>
+				
+			<div id="footer">
+				<p>&copy; Dave Grolling</p>
+			</div>				
+		</div>
+	</body>
+</html>

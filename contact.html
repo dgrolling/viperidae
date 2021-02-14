@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Page</title>
+		<link href="layout.css" rel="stylesheet" type="text/css" media="screen"/>
+		<link href="content.css" rel="stylesheet" type="text/css" media="screen"/>
+		<meta charset="UTF-8"/>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<h1>The Maryland Monadnock<br><small><small>Contact Us</small></small></h1>
+			</div>
+						
+			<div id="nav">
+				<a href="index.html">Introduction</a>
+				<a href="routes.html">Routes</a>
+				<a href="trails.html">Trails</a>
+				<a href="winery.html">Winery</a>
+				<a href="contact.html">Contact</a>
+			</div>
+				
+			<div id="content">
+				<h3>CONTACT US</h3>
+				
+				<form method="post" id="contact" action="gmail.php">
+					
+					<fieldset>
+						<label for="name" class="leftLabel">Name:</label>
+						<input type="text" name="senderName" id="senderName" class="rightInput"/><br>
+
+						<label for="email" class="leftLabel">Email:</label>
+						<input type="text" name="email" id="email" class="rightInput"/><br>
+
+						<label for="subject" class="leftLabel">Subject:</label>		
+						<input type="text" name="subject" id="subject" class="rightInput"/><br>
+
+						<label for="message" class="leftLabel">Message:</label>				
+						<textarea name="message" id="message" class="rightInput"> </textarea><br>
+						<input type="submit" id="submit" value="Send Message" style="width: 150px height: 75px padding: 0 0 0 10px;">
+					</fieldset>
+					
+				</form>
+
+			</div>
+				
+			<div id="footer">
+				<p>&copy; Dave Grolling</p>
+			</div>				
+		</div>
+	</body>
+</html>

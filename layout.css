@@ -1,0 +1,49 @@
+#container {width: 1000px; 
+		    margin: 0 auto;}
+
+
+/*Image taken from personal collection*/
+#header {height: 180px; 
+		 margin: 10px 0 0 0; 
+		 background: url(images/sugarloaf.jpg);
+		 border-right: 10px groove #6699CC;
+		 border-left: 10px groove #6699CC;
+		 border-top: 10px groove #6699CC;}
+
+#header h1 {text-align: right;
+			color: #F0F0F0;
+			padding: 0px 50px;
+			font-style: normal}
+
+#content {border-right: 10px groove #6699CC;
+		  border-left: 10px groove #6699CC;
+		  border-bottom: 10px groove #6699CC;
+		  padding: 25px 50px 35px 100px;}
+		  
+#nav {width: 1000px;
+	  overflow: hidden;}
+	  
+#nav a{width: 198px;
+	   height: 35px;
+	   float: left;
+	   padding: 13px 0 0 0;
+	   background: url(images/navgreen.png);
+	   border-right: 1px outset #16699CC;
+	   border-width: 1px;
+	   border-style: solid;
+	   border-color: black;
+	   text-align: center;
+	   text-transform: uppercase;
+	   font-weight: bold;
+	   color: #003300;
+	   text-decoration: none;}
+
+#nav a:hover{background: url(images/nav_hovyell.png);
+			 color: #2F4F4F;}
+
+#footer p{font-weight: bold;
+		  text-align: right;}
+		  
+#content h1{color:#003399}
+		  
+
