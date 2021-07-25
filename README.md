@@ -12,4 +12,4 @@ For my second database that a user can query from on my website, I decided to us
 
 Both data sets were created by hand typing the data and appropriate fields from their respective sources into a Microsoft Excel comma separated file. For ease of import, I then converted these two CSV files into Open Document Spreadsheet files to be imported smoothly into phpMyAdmin to create the databases. All variables across both sets were of the VARCHAR type with the exception of the ‘year’ variable in the winery database and ‘length’ in the climbing database.
 
-![alt text](http://url/to/img.png)
+![alt text](https://static.thenounproject.com/png/1390001-200.png)
